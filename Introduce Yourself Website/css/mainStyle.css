@@ -1,0 +1,113 @@
+html
+{
+    background-color: #374143;
+    color: #EBEBEB;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION BAR SETTING */
+nav
+{
+    text-align: center;
+    background-color: #1b2021;
+}
+
+.nav
+{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+}
+
+button.nav
+{
+    width: 13%;
+    background-color: #407899;
+    color: #EBEBEB;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+
+    transition-duration: .3s;
+}
+
+button.nav:hover
+{
+    background-color: #DE6449;
+    text-decoration: underline #DE6449;
+
+}
+
+button.nav:active
+{
+    background-color: #374143;
+    transition-duration: 0s;
+}
+
+button#active
+{
+    background-color: #374143;
+    text-decoration: underline #DE6449;
+}
+
+/* PAGE CONTENT SETTINGS */
+div#content
+{
+    margin: auto;
+    width: 40%;
+    padding-top: 100px;
+}
+
+div#textWithContent
+{
+    padding-top: 10px;
+    display: flex;
+}
+
+hr
+{
+    background-color: #DE6449;
+    border: 0px;
+    height: 2px;
+}
+
+h1
+{
+    font-size: 3vw;
+}
+
+h2
+{
+    padding-top: 20px;
+    font-size: 1.2vw;
+    text-underline: dash;
+}
+
+p, td
+{
+    padding: 10px 0px;
+    line-height: 1.3vw;
+}
+
+/* TABLE SETTINGS */
+table, tr, th, td
+{
+    padding: 10px;
+    border: 1px solid #407899;
+}
+
+table
+{
+    width: 100%;
+}
+
+th
+{
+    width: 45%;
+    font-size: 1vw;
+}
+
+th.goal
+{
+    width: 10%
+}
