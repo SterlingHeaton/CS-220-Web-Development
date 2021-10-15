@@ -1,0 +1,122 @@
+/* PAGE SETTINGS */
+body
+{
+    font-family: 'VT323', monospace;
+    background-color: #141414;
+    color: #DBE9EE;
+}
+
+/* TITLE SETTINGS */
+div#title
+{
+    margin: 100px 0;
+    text-align: center;
+    color: #F9A03F;
+}
+
+h1
+{
+    font-size: 100px;
+    text-decoration: underline;
+    text-decoration-color: #F62DAE;
+    text-decoration-thickness: 3px;
+}
+
+/* STARTING PAGE SETTINGS*/
+div#startPage
+{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+div#startingButton
+{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div#highScore
+{
+    /*margin: auto;*/
+    width: 300px;
+    padding-top: 10px;
+    float: right;
+}
+
+p
+{
+    padding: 30px;
+    font-size: 30px;
+}
+
+button#startButton
+{
+    background-color: #3943B7;
+    font-family: 'VT323', monospace;
+    font-size: 80px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #F9A03F;
+    color: #DBE9EE;
+
+    transition-duration: 150ms;
+}
+
+button#startButton:hover
+{
+    font-size: 85px;
+}
+
+button#startButton:active
+{
+    font-size: 80px;
+}
+
+/* TABLE SETTINGS */
+table, tr, th, td
+{
+    font-size: 25px;
+    border: 1px solid #F62DAE;
+}
+
+table
+{
+    width: 100%;
+}
+
+th
+{
+    width: 50%;
+    font-size: 35px;
+}
+
+h2
+{
+    font-size: 50px;
+    color: #F9A03F;
+}
+
+/* GAME AREA SETTINGS */
+div#gameArea
+{
+    margin: 100px auto;
+    width: 800px;
+    height: 800px;
+    border: 1px solid #F62DAE;
+}
+
+button#gameButton
+{
+    background-color: #3943B7;
+    font-family: 'VT323', monospace;
+    font-size: 80px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #F9A03F;
+    color: #DBE9EE;
+}
