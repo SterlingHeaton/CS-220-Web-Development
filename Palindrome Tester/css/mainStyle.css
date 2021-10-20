@@ -1,0 +1,101 @@
+body
+{
+    background-color: #141414;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* MAIN PAGE CONTENT SETTINGS */
+div#content
+{
+    margin: auto;
+    width: 800px;
+}
+
+/* TITLE/PAGE HEADER SETTINGS */
+div#title
+{
+    font-size: 85px;
+    text-align: center;
+    text-decoration: 3px underline;
+    margin: 100px 0;
+    color: #0094C6;
+}
+
+/* DESCRIPTION AND START SETTINGS*/
+div#information
+{
+    display: inline-flex;
+    color: #C9CEBD;
+}
+
+button#startButton
+{
+    margin: auto 5% auto auto;
+    height: 100px;
+    width: 20%;
+    font-size: 25px;
+    font-family: 'Yeseva One', cursive;
+    background-color: #D81159;
+    border: 1px solid #0094C6;
+    color: #141414;
+
+    transition-duration: 200ms;
+}
+
+button#startButton:hover
+{
+    background-color: #ac0d47;
+}
+
+p#description
+{
+    width: 65%;
+    margin: 0 auto 0 5%;
+    line-height: 25px;
+}
+
+/* FEEDBACK INFORMATION SETTINGS */
+div#textInformation
+{
+    margin: 30px 0;
+}
+
+div#feedback
+{
+    margin: 10px 0;
+}
+
+h2#userAnswer
+{
+    text-align: center;
+    color: #C9CEBD;
+    font-size: 25px;
+}
+
+h3#answer
+{
+    text-align: center;
+    color: #0094C6;
+    font-size: 30px;
+}
+
+/* TABLE SETTINGS */
+table, tr, th, td
+{
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid #FF7F11;
+    color: #C9CEBD;
+}
+
+table
+{
+    width: 50%;
+    margin: auto;
+}
+
+th
+{
+    width: 50%;
+    font-size: 35px;
+}
