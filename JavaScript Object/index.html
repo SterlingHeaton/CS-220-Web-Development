@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <p id="object"></p>
+        <script>
+            const myObject =
+                {
+                    name: "Credit Card",
+                    type: "Visa",
+                    limit: 5000,
+                    bank: "Ensign Bank",
+                    lastFour: 1234,
+                    cvv: 123
+                }
+
+            printObject();
+
+            function printObject()
+            {
+                document.getElementById("object").innerText = "My object: " + myObject.name +
+                    " - " + myObject.type +
+                    " from " + myObject.bank +
+                    " with a limit of: " + myObject.limit +
+                    ". Last four digits: " + myObject.lastFour +
+                    " and CVV: " + myObject.cvv;
+            }
+        </script>
+    </body>
+</html>
