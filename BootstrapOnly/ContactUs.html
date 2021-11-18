@@ -1,0 +1,172 @@
+<!--Made by Eloisa Soares:-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<style>
+    
+h3 {
+  /*color: Raisin Black;*/
+  color: #1E1E24;
+  text-align:center;
+}  
+    
+body {color: #1E1E24;}
+ {box-sizing: border-box;}
+    
+input[type=text], select, textarea {
+  color: #1E1E24;
+  font-size: 10pt;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=phone], select, textarea {
+  color: #1E1E24;
+  font-size: 10pt;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  color: #1E1E24;
+  font-size: 10pt;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+
+.dropdown-toggle {   
+    background-color: white;
+    color: gray;
+    border-color: lightgray;
+    font-size: 10pt;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;    
+    width: 100%;
+}
+    
+input[type=message], select, textarea {
+  color: #1E1E24;
+  font-size: 10pt;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  resize: vertical;
+}
+ 
+.container-fluid {
+  border-radius: 5px;
+  background-color: #fff8f0;
+  padding: 20px;
+}
+    
+button[type=submit] {
+  font-size: 10pt;
+  background-color: #1e1e24;
+  color: #fff8f0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+    
+</style>
+
+    
+<h3>Contact Us</h3>
+    
+<div class="container-fluid">
+
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="Name">Name:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="name" placeholder="Enter your name..." name="name" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="phone">Phone:</label>
+      <div class="col-sm-8">
+        <input type="phone" class="form-control" id="phone" placeholder="Enter your phone..." name="phone" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-8">
+        <input type="email" class="form-control" id="email" placeholder="Enter your email..." name="email" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="topic">Topic:</label>
+      <div class="col-sm-8">
+        <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Select the topic of your message
+        </button>
+        <ul class="dropdown-menu" role="menu">
+        <li><a href="#">General Information</a></li>
+        <li><a href="#">Suggestions</a></li>
+        <li><a href="#">Other</a></li>
+        </ul>
+    </div>
+      </div>
+    </div>  
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="message">Message:</label>
+      <div class="col-sm-8">          
+      <textarea type="message" class="form-control" rows="7" id="message" placeholder="Enter your message..." name="message" required></textarea>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-8">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Send me news.</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-8">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+    
+$(".dropdown-menu li a").click(function(){
+  $(this).parents(".dropdown").find('.btn').html($(this).text());
+  $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+});    
+    
+</script>
+    
+</body>
+</html>
