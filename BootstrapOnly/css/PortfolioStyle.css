@@ -4,6 +4,16 @@ body
     background-color: #FFF8F0;
 }
 
+h2
+{
+    color: #EF8A17;
+}
+
+h3
+{
+    color: #FF0035;
+}
+
 div#mainNav
 {
     background-color: #1E1E24;
@@ -19,11 +29,10 @@ div#footer
 {
     position: fixed;
     bottom: 0;
-    background-color: #2B2B2B;
+    background-color: #1E1E24;
     text-align: center;
     color: white;
     width: 100%;
-    padding: 10px 0;
 }
 
 div.card
