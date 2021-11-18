@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/PortfolioStyle.css">
 </head>
 <body>
+    <!-- Main NavBar -->
     <div id="mainNav">
         <ul class="pagination justify-content-center">
             <li class="page-item">
@@ -32,36 +33,33 @@
         </ul>
     </div>
 
-    <div class="container-fluid">
+    <!-- Main Content Area -->
+    <div class="container">
+
         <!-- JumboTron -->
         <div class="mt-4 p-5 rounded" id="jumboTron">
             <h1>Brandon Bentley</h1>
             <p>Here are previous projects Brandon has worked on.</p>
         </div>
 
-        <!-- Pill Nav for Portfolios-->
+        <!-- Breadcrumb path for Portfolios-->
         <div>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolioSterling.html">Sterling</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="portfolioBrandon.html">Brandon</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolioEloisa.html">Elosia</a>
-                </li>
-            </ul>
+            <nav class="justify-content-center" style="--bs-breadcrumb-divider: '->';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="portfolio.html">Portfolios</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Brandon</li>
+                </ol>
+            </nav>
         </div>
 
-        <!-- Brandons's Carousel -->
-        <div id="brandonCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <!-- Brandon's Carousel -->
+        <div id="carousel" class="carousel slide mb-5" data-bs-ride="carousel">
 
             <!-- Indicators/dots -->
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#brandonCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#brandonCarousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#brandonCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
             </div>
 
             <!-- The slideshow/carousel -->
@@ -78,14 +76,16 @@
             </div>
 
             <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#brandonCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#brandonCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
     </div>
+
+    <!-- Footer -->
     <div id="footer">
         <p>Copyright © 2021 Brandon Bentley, Eloisa De Oliveira Mariano Soares, and Sterling Heaton. All Rights Reserved</p>
     </div>

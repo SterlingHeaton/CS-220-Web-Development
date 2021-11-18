@@ -26,7 +26,12 @@ div#footer
     padding: 10px 0;
 }
 
-div#sterlingCarousel, div#brandonCarousel, div#eloisaCarousel
+div.card
+{
+    border-color: #FF0035;
+}
+
+div#carousel
 {
     width: 800px;
     margin: auto;
