@@ -45,3 +45,8 @@ div#carousel
     width: 800px;
     margin: auto;
 }
+
+hr
+{
+    color: #FF0035;
+}
