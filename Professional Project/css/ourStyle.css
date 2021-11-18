@@ -1,0 +1,12 @@
+
+div#slideShow
+{
+    width: 600px;
+    height: 100%;
+}
+
+img#picture
+{
+    width: auto;
+    height: 400px;
+}

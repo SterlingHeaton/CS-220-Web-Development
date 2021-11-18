@@ -1,0 +1,33 @@
+body
+{
+    color: #1E1E24;
+    background-color: #FFF8F0;
+}
+
+div#mainNav
+{
+    background-color: #1E1E24;
+}
+
+div#jumboTron
+{
+    background-color: #EF8A17;
+    color: #fff8f0;
+}
+
+div#footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #2B2B2B;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+
+div#sterlingCarousel, div#brandonCarousel, div#eloisaCarousel
+{
+    width: 800px;
+    margin: auto;
+}
