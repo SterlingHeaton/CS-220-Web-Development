@@ -1,33 +1,61 @@
+/* Made By Sterling Heaton */
+
+/* Default values for all bodies*/
 body
 {
     color: #1E1E24;
     background-color: #FFF8F0;
 }
 
+/* Colors mostly used in aboutUs*/
+h2
+{
+    color: #EF8A17;
+}
+
+h3
+{
+    color: #FF0035;
+}
+
+/* Main nav settings */
 div#mainNav
 {
     background-color: #1E1E24;
 }
 
+/* Main jumbotron settings */
 div#jumboTron
 {
     background-color: #EF8A17;
     color: #fff8f0;
 }
 
+/* Main footer settings */
 div#footer
 {
     position: fixed;
     bottom: 0;
-    background-color: #2B2B2B;
+    background-color: #1E1E24;
     text-align: center;
     color: white;
     width: 100%;
-    padding: 10px 0;
 }
 
-div#sterlingCarousel, div#brandonCarousel, div#eloisaCarousel
+/* Settings for portfolio pages */
+div.card
+{
+    border-color: #FF0035;
+}
+
+div#carousel
 {
     width: 800px;
     margin: auto;
+}
+
+/* Color of line breaker */
+hr
+{
+    color: #FF0035;
 }
