@@ -1,0 +1,27 @@
+body
+{
+    background-color: #FFE8C2;
+}
+
+div#productNav
+{
+    background-color: white;
+    right: 0;
+    height: 100vh;
+}
+
+/* PLACEHOLDER */
+div#header
+{
+    background-color: black;
+    color: sandybrown;
+    text-align: center;
+}
+
+div#footer, p#footerContent
+{
+    background-color: black;
+    color: sandybrown;
+    text-align: center;
+    bottom: 0px;
+}
