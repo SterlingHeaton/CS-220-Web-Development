@@ -25,3 +25,22 @@ div#footer, p#footerContent
     text-align: center;
     bottom: 0px;
 }
+
+div#productHeader
+{
+    background-color: lightcyan;
+    max-height: 150px;
+}
+
+h1#productHeaderText
+{
+    position: absolute;
+    width: max-content;
+}
+
+div.card
+{
+    width: 200px;
+    margin: 5px 5px;
+    padding: 0;
+}
