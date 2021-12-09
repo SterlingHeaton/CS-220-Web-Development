@@ -21,17 +21,19 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <!-- HEADER PLACE HOLDER -->
+        <!-- MAIN NAV PLACEHOLDER -->
         <div id="header">
             <nav>MAIN NAV PLACEHOLDER</nav>
-        </div> <!-- end header -->
+        </div> <!-- END MAIN NAV PLACEHOLDER -->
     </div>
 
+    <!-- MAIN PRODUCT PAGE -->
     <div class="row">
+
         <!-- PRODUCT NAV -->
         <div class="col-2 sticky-top" id="productNav">
             <nav class="nav flex-column">
-                <a class="nav-link active productNavItem" aria-current="page" href="#">All Products</a>
+                <a class="nav-link active productNavItem" aria-current="page" href="products.html">All Products</a>
                 <hr>
                 <a class="nav-link productNavItem" href="#">Mens</a>
                 <a class="nav-link productNavItem" href="#">Womans</a>
@@ -40,6 +42,7 @@
                 <a class="nav-link productNavItem" href="#">Accessories</a>
                 <hr>
 
+                <!-- COPYRIGHT INFO -->
                 <div class="mt-4 p-1">
                     <p>Copyright © 2021</p>
                     <p>Andre Nascimento, Eusebio Vieira Fernandes, and Sterling Heaton.</p>
@@ -48,11 +51,12 @@
             </nav>
         </div> <!-- END PRODUCT NAV -->
 
+        <!-- PRODUCT PAGE HEADER AND PRODUCTS -->
         <div class="col-10">
+
             <!-- PRODUCT PAGE HEADER -->
             <div class="row mb-3" id="productHeader">
-                <img class="img-fluid p-0" id="pictureHeader"
-                     src="img/shopHeader/allProducts.jpg">
+                <img class="img-fluid p-0" id="pictureHeader" src="img/shopHeader/allProducts.jpg">
                 <h1 id="productHeaderText"> All Products</h1>
             </div> <!-- END PRODUCT PAGE HEADER -->
 
@@ -172,9 +176,8 @@
                 </div> <!-- END PRODUCT CARD -->
             </div> <!-- END PRODUCTS -->
         </div>
-    </div>
+    </div> <!-- END MAIN PRODUCT PAGE -->
 </div>
-
 <script>
     function addToCart() {
         alert("Added product to your cart!");
