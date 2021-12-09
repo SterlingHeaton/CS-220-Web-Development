@@ -1,0 +1,93 @@
+body
+{
+    background-color: #FFE8C2;
+}
+
+hr
+{
+    background-color: #376C95;
+}
+
+/* NAV PLACEHOLDER */
+div#header
+{
+    background-color: #2E2F2F;
+    color: #FFE8C2;
+    text-align: center;
+    height: 50px;
+}
+
+/* PRODUCT NAV */
+div#productNav
+{
+    right: 0;
+    height: 100vh;
+    border-right: 2px solid #2E2F2F;
+}
+
+.productNavItem
+{
+    color: #2E2F2F;
+    font-size: large;
+}
+
+.productNavItem:hover
+{
+    color: #2E2F2F;
+    text-decoration: underline solid #25CED1;
+}
+
+div#productNav a.active
+{
+    color: #2E2F2F;
+    text-decoration: underline solid #25CED1;
+}
+
+/* PRODUCT CATEGORY HEADER */
+img#pictureHeader
+{
+    border-bottom: 2px solid #2E2F2F;
+}
+
+div#productHeader
+{
+    border-bottom: 2px solid #2E2F2F;
+}
+
+h1#productHeaderText
+{
+    color: #25CED1;
+    text-shadow: -1px -1px 0 #376C95, 1px -1px 0 #376C95, -1px 1px 0 #376C95, 1px 1px 0 #376C95;
+}
+
+/* PRODUCT CARD */
+div.card
+{
+    width: 250px;
+    margin: 5px 5px;
+    padding: 0;
+    border: 1px solid #2E2F2F;
+    color: #2E2F2F;
+}
+
+img.card-img-top
+{
+    border-bottom: 1px solid #2E2F2F;
+}
+
+img.cart
+{
+    position: absolute;
+    right: 5px;
+    height: 20px;
+}
+
+img.cart:hover
+{
+    content:url("../img/products/bag-plus-fill.svg");
+}
+
+h6.card-subtitle
+{
+    color: green;
+}
