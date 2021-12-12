@@ -1,0 +1,10 @@
+body
+{
+    background-color: black;
+}
+
+div#map
+{
+    width: 500px;
+    height: 500px;
+}

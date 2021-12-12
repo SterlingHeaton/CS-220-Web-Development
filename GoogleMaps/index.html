@@ -3,8 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
+
+        <script src="javascripts/jquery.js"></script>
+        <script type="text/javascript"
+                src="https://maps.googleapis.com/maps/api/js?key=KEYGOHERE"></script>
+        <script type="text/javascript" src="javascripts/jquery.googlemap.js"></script>
+
+        <link rel="stylesheet" href="css/mapStyles.css">
     </head>
     <body>
+        <div id="map"></div>
+        <script type="text/javascript">
+            $(function()
+            {
+                $("#map").googleMap({
+                    zoom: 10, // Initial zoom level (optional)
+                    coords: [40.7712555434909, -111.90020348677417], // Map center (optional)
+                    type: "ROADMAP" // Map type (optional)
+                });
 
+                $("#map").addMarker({
+                    coords: [40.7712555434909, -111.90020348677417], // GPS coords
+                    // url: 'http://www.ensign.edu', // Link to redirect onclick (optional)
+                    id: 'Ensign', // Unique ID for your marker
+                    title: 'Ensign College',
+                    text: 'Ensign College is an institution of higher education founded and sponsored by The Church of Jesus Christ of Latter-day Saints.\n' +
+                        '\n' +
+                        'The school’s mission is to develop capable and trusted disciples of Jesus Christ.\n' +
+                        '\n' +
+                        'As an institution, we seek and follow the counsel and guidance of inspired leaders in harmony with The Church of Jesus Christ of Latter-day Saints, its purposes, and in fulfilling our stated mission.',
+                    icon: 'img/2875433.png'
+                });
+            })
+        </script>
     </body>
 </html>

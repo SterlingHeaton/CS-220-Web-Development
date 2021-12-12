@@ -3971,7 +3971,7 @@
                 text: "text/plain",
                 html: "text/html",
                 xml: "application/xml, text/xml",
-                json: "application/json, text/javascript"
+                json: "application/json, text/javascripts"
             },
             contents: {
                 xml: /\bxml\b/,
@@ -4383,7 +4383,7 @@
     {
         e.crossDomain && (e.contents.script = !1)
     }), S.ajaxSetup({
-        accepts: {script: "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript"},
+        accepts: {script: "text/javascripts, application/javascripts, application/ecmascript, application/x-ecmascript"},
         contents: {script: /\b(?:java|ecma)script\b/},
         converters: {
             "text script": function(e)
