@@ -1,0 +1,74 @@
+
+/*  #FFE8C2 SAND
+    #25CED1 LIGHT BLUE
+    #376C95 DARK BLUE
+    #2E2F2F BLACK*/
+body
+{
+    background-color: #FFE8C2;
+    color: #2E2F2F;
+}
+
+/* NAV PLACEHOLDER */
+div#header
+{
+    background-color: #2E2F2F;
+    color: #FFE8C2;
+    text-align: center;
+    height: 50px;
+}
+
+/* FOOTER PLACEHOLDER */
+div#footer
+{
+    background-color: #2E2F2F;
+    color: #FFE8C2;
+    text-align: center;
+    /*height: 50px;*/
+    min-height: 50px;
+    position: relative;
+    margin-top: auto;
+}
+
+div#jumbotron
+{
+    background-color: #25CED1;
+    border-bottom: 1px solid #2E2F2F;
+}
+
+.card
+{
+    width: 250px;
+    min-height: 200px;
+    margin: 10px;
+    border: 1px solid #2E2F2F;
+    padding: 0;
+}
+
+button#submit, span.input-group-text
+{
+    background-color: #25CED1;
+    color: #2E2F2F;
+}
+
+form
+{
+    border-collapse: collapse;
+
+}
+
+span.input-group-text, input.form-control, select.form-select-sm, button#submit, textarea.form-control
+{
+    border: 1px solid #2E2F2F;
+    border-radius: unset;
+}
+
+h6.card-subtitle
+{
+    color: goldenrod;
+}
+
+hr
+{
+    background-color: #376C95;
+}
